@@ -23,8 +23,8 @@
         <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
             <li><a href="{{ url_for('main') }}">Home</a></li>
-            <li><a href="{{ url_for('user', name='Gustavo Martins', prontuario='PT3031772', instituicao='IFSP') }}">Identificação</a></li>
-            <li><a href="{{ url_for('contexto', name='Gustavo Martins') }}">Contexto da requisição</a></li>
+            <li><a href="{{ url_for('user', user_name='Gustavo Martins', prontuario='PT3031772', instituicao='IFSP') }}">Identificação</a></li>
+            <li><a href="{{ url_for('contexto', user_name='Gustavo Martins') }}">Contexto da requisição</a></li>
         </ul>
         </div>
     </div>
